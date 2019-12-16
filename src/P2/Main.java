@@ -15,7 +15,7 @@ public class Main {
 			totals[x]=getScore(scores[x]);
 		}
 		String p1="", p2="";
-		int first=0,second=0;
+		int first=-1,second=-1;
 		for (int x=0;x<totals.length;x++) {
 			if (totals[x]>first) {
 				second=first;
